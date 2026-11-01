@@ -35,7 +35,7 @@ with st.sidebar:
     Pricet5 = st.number_input("average entry")
     QT5= st.number_input("Quantity")
     
-    size = 
+    
     value = st.number_input("Portfolio value", min_value=1000, value=100_000, step=1000)
     period = st.selectbox("History window", ["1y", "2y", "3y", "5y","10"], index=1)
     horizon = st.slider("Horizon (days)", 1, 60, 10)
